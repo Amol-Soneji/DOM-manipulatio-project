@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <title>Blog</title>
+    <link href="Style.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset title="Create a new post" id="input-area">
+                <label for="title">Title</label>
+                <input id="title" type="text"/>
+                <label for="content">Content</label>
+                <textarea id="content"></textarea>
+                <label for="imgLink">Add an image via link</label>
+                <button id="imgLink" type="button">Add image Link</button>
+                <input title="Create" type="submit" id="submit-button"/>
+            </fieldset>
+        </form>
+        <section id="created">
+
+        </section>
+        <footer>
+            <div id="name">Amol Soneji</div>
+            <a id="goToTop" href="#top">
+                <div id="goTopText">Go to top of page</div>
+            </a>
+        </footer>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+  background-image: url("./img/sand-7468945_1920.jpg");
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+label,
+input {
+  display: block;
+}
+
+.postTimeStamp {
+  font-weight: bold;
+}
+
+article {
+  background: linear-gradient(to bottom, whitesmoke, lightgray);
+  margin: 2vh 0 2vh 0;
+  padding-bottom: 3px;
+}
+
+#created {
+  margin-bottom: 4vh;
+}
+
+.postImage {
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: ivory;
+  border: solid #000000 2px;
+  z-index: 2;
+}
+
+#name {
+  padding-left: 4%;
+}
+
+#goToTop {
+  padding-right: 4%;
+}
+
+#goTopText {
+  text-align: right;
+}
